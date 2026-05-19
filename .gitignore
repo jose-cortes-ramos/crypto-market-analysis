@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+
+# Data
+data/
+
+# GCP Credentials and sensitive data
+*.json
+!credentials.json.example
+auth/
